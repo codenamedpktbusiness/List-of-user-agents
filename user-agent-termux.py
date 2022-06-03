@@ -34,7 +34,7 @@ def getUa(br):
   else:
     print('No soup for '+br)
 
-lst = ['Firefox','Firefox+Beta','Opera','Opera+Beta','Safari','Chrome','Chrome+Beta','Edge','Edge+Beta','Brave','Brave+Beta','Android+Webkit+Browser','Android+Webkit+Browser+Beta']
+lst = ['Firefox','Opera','Safari','Chrome','Edge','Android+Webkit+Browser']
 
 for i in lst:
   getUa(i)
